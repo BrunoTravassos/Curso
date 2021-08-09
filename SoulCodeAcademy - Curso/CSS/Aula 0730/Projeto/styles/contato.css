@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#img-contato {
+    width: 100vw;
+    height: 30vh;
+    border-radius: 1%;
+    z-index: -1;
+    position: sticky;
+    top: 0;
+}
+
+#t1 {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    left: px;
+    float: left;
+    /* border-style: solid;
+    border-width: 2px; */
+}
+
+#h1-contato {
+    margin-left: 40vw;
+    margin-top: 7vw;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    z-index: 1;
+}
+
+#titulo_descricao {
+    margin-left: 35vw;
+    margin-top: 3vw;
+    font-style: ;
+}
+
+fieldset {
+    width: 50vw;
+    position: relative;
+    top: 1vw;
+    left: 30vw;
+    border: none;
+}
+
+#nome, #email, #telefone, #info {
+    width: 40vw;
+    height: 7vh;
+    padding: 10px;
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* background-color: transparent; */
+}
+
+select {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.comment {
+    resize: none;
+    height: 20vh;
+    width: 30vw;
+    position: relative;
+    left: 3vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.botao_enviar {
+    width: 10vw;
+    height: 7vh;
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(to right, black 5%, #26070C 40%, #732002, #26070C);
+    color: wheat;
+    font-size: large;
+}

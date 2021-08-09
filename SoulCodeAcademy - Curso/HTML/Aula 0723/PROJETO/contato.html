@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulCode Cinema | Contato</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="./images/cinema-ao-ar-livre.png" alt="logoMarca" width="250px" heigth="50px">
+            <section class="titulo">
+                <p><b>SoulCode Cinema</b></p>
+            </section>
+        </div>
+    </header>
+    <nav class="menu-navegacao">
+        <ul class="menu">
+            <li><a class="link" href="./index.html">Início</a></li>
+            <li><a class="link" href="./lancamentos.html">Lançamentos</a></li>
+            <li><a class="link" href="#">
+                    <a href="#">Categorias</a>
+                    <ul>
+                        <li><a href="./comedia.html">Comédia</a></li>
+                        <li><a href="./terror.html">Terror</a></li>
+                        <li><a href="./animação.html">Desenho Animado</a></li>
+                        <li><a href="./documentario.html">Documentário</a></li>
+                    </ul>
+                </a></li>
+            <li><a class="link" href="./contato.html">Fale Conosco</a></li>
+            <li><a class="link" href="./login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <form action="Enviar Contato" method="POST">
+        <div class="titulo_descricao">
+            <h2>FALE CONOSCO</h2>
+            <p>Preencha o formulário que lhe retornaremos em breve</p>
+        </div>
+
+        <fieldset style="width:25%; margin-bottom: 200px;">
+            <legend>Informações</legend>
+            <div>
+                <input type="text" id="nome" placeholder="Nome">
+                <input type="tel" id="telefone" placeholder="Telefone">
+            </div>
+            <br>
+            <div class="email">
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Senha">
+            </div>
+            <br>
+            <textarea class="comment" placeholder="Mensagem"></textarea>
+            <br>
+            <input class="botao_enviar" type="submit" name="submitInfo" value="Enviar">
+
+        </fieldset>
+        <hr>
+        <footer class="rodape" align="center">
+            <p>
+                &copy; Copyright SoulCode Cinema <br>
+                Tomé Luan | Alessandra Murat | Amanda Nascimento | Bruno de Frontin | Leonardo Linard
+            </p>
+        </footer>
+
+    </form>
+</body>
+
+</html>

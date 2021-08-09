@@ -1,0 +1,110 @@
+body {
+    margin: 10px;
+    border: 1px;
+    border-style: solid;
+    /* background-image: url(bg-brasil.png); */
+    background-image: url(bg-brasil2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*  background-size: cover;  */
+}
+
+h1 {
+    text-align: center;
+    color: #019c01;
+    font-size: 48px;
+}
+
+#boximg1 {
+    margin: 10px;
+    width: 225px;
+    height: 200px;
+    /* background-color: aliceblue; */
+    background-color: transparent;
+    border-style: solid;
+    border-top-left-radius: 10px;
+    text-align: center;
+}
+
+#boximg2 {
+    margin: 10px;
+    width: 225px;
+    height: 200px;
+    background-color: aliceblue;
+    background-color: transparent;
+    border-style: solid;
+    text-align: center;
+}
+
+#boximg3 {
+    margin: 10px;
+    width: 225px;
+    height: 200px;
+    background-color: aliceblue;
+    background-color: transparent;
+    border-style: solid;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+#boximg4 {
+    margin: 10px;
+    width: 225px;
+    height: 200px;
+    background-color: aliceblue;
+    background-color: transparent;
+    border-style: solid;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+}
+
+#boximg5 {
+    margin: 26px;
+    width: 225px;
+    height: 200px;
+    background-color: aliceblue;
+    background-color: transparent;
+    border-style: solid;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+#boximg0 {
+    margin: 10px;
+    width: 225px;
+    height: 200px;
+    background-color: white background-color: transparent;
+}
+
+.tamimg img {
+    border-style: solid;
+    border-radius: 10%;
+    border-width: thin;
+    width: 120px;
+    height: 50px;
+    ;
+}
+
+article {
+    display: inline-block;
+}
+
+.norte {
+    box-shadow: 5px 10px 0 1px #83fa76;
+}
+
+.nordeste {
+    box-shadow: 5px 10px 0 1px #dd9905;
+}
+
+.centro {
+    box-shadow: 5px 10px 0 1px #f3f041;
+}
+
+.sudeste {
+    box-shadow: 5px 10px 0 1px #019c01;
+}
+
+.sul {
+    box-shadow: 5px 10px 0 1px #0110e7;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soulCode-Movies</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="./images/cinema-ao-ar-livre.png" alt="logoMarca" width="250px" heigth="50px">
+            <div class="titulo">
+                <h1>SoulCode Cinema</h1>
+            </div>
+        </div>
+    </header>
+    <nav class="menu-navegacao">
+        <ul>
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="#">Lançamentos</a></li>
+            <li><a href="#">Categorias</a></li>
+            <li><a href="#">Fale Conosco</a></li>
+            <li><a href="#">Faça seu Cadastro</a></li>
+        </ul>
+    </nav>
+
+    <form action="Enviar Contato" method="POST">
+        <div class="titulo_descricao">
+            <h2>FALE CONOSCO</h2>
+            <p>Preencha o formulário que lhe retornaremos em breve</p>
+        </div>
+        
+        <fieldset style="width:35% ;">
+            <legend>Informações</legend>
+            <div>
+                <input type="text" id="nome" placeholder="Nome">
+                <input type="tel" id="telefone" placeholder="Telefone">
+            </div>
+            <br>
+            <div class="email" >
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Senha">
+            </div>
+            <br>
+            <textarea class="comment">Mensagem</textarea>
+            <br>
+            <input class="botao_enviar" type="submit" name="submitInfo" value="Enviar">
+            
+        </fieldset>
+    </form>
+</body>
+
+</html>

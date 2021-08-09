@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    /* min-width: 1136px; */
+    /* min-width: 100%;
+    max-width: 1253px;
+     */height: 20vh;
+    background: linear-gradient(to right, black 5%, #26070C 40%, #732002, #26070C);
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    left: 4vw;
+    height: 20vh;
+    width: 30vh;
+}
+
+#pesquisa {
+    position: absolute;
+    bottom: 1.5vh;
+    right: 3vw;
+}
+
+#pesquisa input {
+    width: 20vw;
+    height: 3vh;
+}
+
+.nav-header {
+    width: 100%;
+    /* min-width: 1136px;
+    max-width: 1253px;
+     */height: 4.2vh;
+    /* background:linear-gradient(to right, #9a8478, #1e130c); */
+    position: relative;
+}
+
+.nav-header ul {
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    /* align-items: stretch; */
+    background-color: #1e130c;
+    border-top: 0.2vh ridge #9a8478;
+    border-bottom: 0.2vh ridge #9a8478;
+    position: relative;
+}
+
+.nav-header ul li {
+    list-style: none;
+    position: relative;
+}
+
+.nav-header ul li a {
+    position: relative;
+    top: 0.5rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    /* border:2px solid #9a8478; */
+    color: cornsilk;
+    background: radial-gradient(30% 70% at center, #806e65, #66574f, #1e130c);
+    text-shadow: 0px 0px 10px rgb(126, 115, 98);
+    padding: 0.2rem 3rem 0.2rem 3rem;
+}
+
+.nav-header ul li a:hover {
+    animation-name: glow;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes glow {
+    50% {
+        color: linen;
+        background: radial-gradient(40% 60% at center, #d4bcae, #1e130c);
+        text-shadow: 0px 0px 20px rgb(248, 244, 239);
+    }
+    100% {
+        color: linen;
+        background: radial-gradient(50% 50% at center, #e0c2b2, #1e130c);
+        text-shadow: 0px 0px 20px linen;
+    }
+}
+
+.nav-header form {
+    float: right;
+}
+
+main {
+    width: 100%;
+    /* min-width: 1136px;
+    max-width: 1253px;
+     */height: 100vh;
+    background-color: linen;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+
+section {
+    width: 90%;
+    height: 100%;
+    background-color: rgba(194, 176, 155, 0.7);
+    padding: 0 0 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#a1 {
+    width: 100%;
+    height: 30%;
+    background-color: #54433b;
+    background-image: url(../img/bkg-img1.jpeg);
+    background-size: cover;
+    box-shadow: 0px 5px 5px 0px #1e130c;
+}
+
+#a2 {
+    width: 80%;
+    height: 30%;
+    /* background-color: darksalmon; */
+    /* box-shadow: 0px 0px 10px 5px #1e130c; */
+    display: flex;
+}
+
+#a2 div {
+    width: 40%;
+    height: 100%;
+    /* background-color:rgb(209, 83, 150); */
+    /* border:1px solid; */
+    position: relative;
+    text-align: center;
+}
+
+#a2 :nth-child(2) {
+    width: 60%;
+}
+
+#triplo-choco {
+    position: absolute;
+    top: -5vh;
+    left: -8vw;
+    width: 150%;
+}
+
+#triplochoco-txt {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2%;
+    width: 90%;
+    text-shadow: 0px 0px 15px rgb(90, 78, 78);
+}
+
+#a3 {
+    width: 80%;
+    height: 30%;
+    /* background-color: #539266; */
+    /* box-shadow: 0px 0px 10px 5px #1e130c; */
+    display: flex;
+}
+
+#a3 div {
+    width: 33%;
+    height: 100%;
+    /* background-color:lightgreen; */
+    /* border:1px solid; */
+}
+
+#a3 :nth-child(2) {
+    width: 34%
+}
+
+.choco-bottom {
+    width: 100%;
+}
+
+#chocob1 {
+    margin-top: 4rem;
+}
+
+#logoreceitas {
+    padding-top: 10rem;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    min-width: 1136px;
+    max-width: 1253px;
+    height: 110px;
+    background-color: linen;
+    text-align: center;
+}
+
+.fotorodape {
+    position: absolute;
+    width: 10%;
+    left: 8%;
+    top: 0px;
+}
+
+h5 {
+    position: absolute;
+    right: 23%;
+    top: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+}
+
+.instagram {
+    position: absolute;
+    width: 4%;
+    right: 18%;
+    top: 20px;
+}
+
+.facebook {
+    position: absolute;
+    width: 4%;
+    right: 13%;
+    top: 20px;
+}
+
+.twitter {
+    position: absolute;
+    width: 4%;
+    right: 8%;
+    top: 20px;
+}
+
+.linha {
+    border: solid 1px #26070C;
+    width: 90%;
+    position: absolute;
+    top: 0px;
+    left: 5%;
+}
+
+.linha2 {
+    border: solid 1px #26070C;
+    width: 90%;
+    position: absolute;
+    top: 80px;
+    left: 5%;
+}
+
+.copyright {
+    position: absolute;
+    width: 50%;
+    top: 9vh;
+    left: 25%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+/* contato.index */
+
+#img-contato {
+    width: 100%;
+    /* min-width: 1136px;
+    max-width: 1253px;
+     */height: 20vh;
+    border-radius: 1%;
+    z-index: 1;
+    position: absolute;
+    top: 25.6vh;
+}
+
+#t1 {
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    float: left;
+    background-color: transparent;
+   
+}
+
+#h1-contato {
+    margin-left: 40vw;
+    margin-top: 7vw;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    z-index: 1;
+}
+
+#titulo_descricao {
+    margin-left: 1vw;
+    margin-top: 3vw;
+    /* font-style: ; */
+}
+
+fieldset {
+    width: 50vw;
+    position: relative;
+    top: 1vw;
+    left: 30vw;
+    border: none;
+}
+
+#nome, #email, #telefone, #info {
+    width: 40vw;
+    height: 7vh;
+    padding: 10px;
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* background-color: transparent; */
+}
+
+select {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.comment {
+    resize: none;
+    height: 20vh;
+    width: 30vw;
+    position: relative;
+    left: 3vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.botao_enviar {
+    width: 10vw;
+    height: 7vh;
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(to right, black 5%, #26070C 40%, #732002, #26070C);
+    color: wheat;
+    font-size: large;
+}
+
+/* contato.index */

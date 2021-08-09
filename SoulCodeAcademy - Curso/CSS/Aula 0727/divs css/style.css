@@ -1,0 +1,47 @@
+.g1 {
+    background: linear-gradient(to top left, green, rgb(14, 13, 13));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.g2 {
+    background: radial-gradient(70% 80% at center, rgb(7, 7, 7), blue);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.g3 {
+    background: linear-gradient(to top right, red, blue);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.g4 {
+    background: repeating-radial-gradient(blue 1%, grey 25%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.g5 {
+    background: linear-gradient(260deg, blue, rgb(32, 126, 63));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.g6 {
+    background: repeating-linear-gradient(to top left, rgb(0, 128, 68) , grey 50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.center>* {
+    margin: auto;
+    text-align: center;
+
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Laboratório</title>
+</head>
+<body>
+    <header>
+        <section class="wrapper1">
+            <section id="w-logo">
+                <img src="logo.png" id="logo-lab" >
+            </section>
+            <section id="w-logo">
+                <p id="p-header">Sistema Laboratório</p>
+            </section>
+        </section>
+    </header>
+
+    <main>
+        <section class="wrapper2">
+            <section id="w-nav">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#">Cliente</a></li>
+                        <li><a href="#">Médico</a></li>
+                        <li><a href="#">Exames</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="w-main">
+                <form id="form-contato" action="Enviar Contato" method="POST">
+                    <fieldset>
+                        <div id="titulo-descricao">
+                            <p>CLIENTE</p>
+                        </div>
+                        <div>
+                            <input type="text" id="nome" placeholder="  Nome">
+                            <input type="text" id="cpf" placeholder="  CPF">
+                            <input type="text" id="endereco" placeholder="  Endereço">
+                            <input type="tel" id="telefone" placeholder=" Telefone/Celular">
+                            <input type="text" id="email" placeholder="  Email">
+
+                            <select id="info" name="Tipo de Exame">
+                                <option value="1">Selecione um tipo de Exame</option>
+                                <option value="2">Sangue</option>
+                                <option value="3">Urina</option>
+                                <option value="4">Fezes</option>
+                            </select>
+                            <input class="botao-enviar" type="reset" name="submitInfo" value="Enviar">
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

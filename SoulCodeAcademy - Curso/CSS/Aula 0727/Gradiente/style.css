@@ -1,0 +1,86 @@
+ body {
+     margin: 10px;
+     border: 1px;
+     border-style: solid;
+ }
+
+ div {
+     display: flex;
+     align-items: center;
+ }
+
+ #g1 {
+     width: 200px;
+     height: 100px;
+     background: linear-gradient(to top left, green, yellow);
+     
+ }
+
+ #g2 {
+     width: 200px;
+     height: 100px;
+     background: linear-gradient(to bottom right, black, grey);
+ }
+
+ #g3 {
+     width: 200px;
+     height: 100px;
+     background: linear-gradient(to top left, red, blue);
+ }
+
+ #g4 {
+     width: 200px;
+     height: 100px;
+     background: linear-gradient(to top left, red, blue);
+ }
+
+ #g5 {
+     width: 200px;
+     height: 100px;
+     background: linear-gradient(to top left, red, blue);
+ }
+
+ #g6 {
+     width: 200px;
+     height: 100px;
+     background: linear-gradient(to top left, red, blue);
+ }
+
+ #g7 {
+     width: 200px;
+     height: 100px;
+     background: linear-gradient(to top left, red, blue);
+ }
+
+ #g8 {
+     width: 200px;
+     height: 100px;
+     background: linear-gradient(to top left, red, blue);
+ }
+
+ #g9 {
+     width: 200px;
+     height: 100px;
+     background: linear-gradient(to top left, red, blue);
+ }
+
+ #g10 {
+     width: 200px;
+     height: 100px;
+     background: linear-gradient(to top left, red, blue);
+ }
+
+ section {
+     align-content: center;
+     display: inline-block;
+ }
+
+ .boximg2 {
+     margin: 10px;
+     width: 225px;
+     height: 200px;
+     background-color: aliceblue;
+     background-color: transparent;
+     border-style: solid;
+     text-align: center;
+ }

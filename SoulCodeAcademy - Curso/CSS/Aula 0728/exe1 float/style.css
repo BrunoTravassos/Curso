@@ -1,0 +1,99 @@
+main {
+    width: 100%;
+    height: 700px;
+    background-color: hsl(199, 100%, 75%);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.form1 {
+    width: 31%;
+    height: 160px;
+    margin-top: 25px;
+    margin-left: 10px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.form2 {
+    width: 31%;
+    height: 160px;
+    margin-top: 25px;
+    margin-left: 30px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.form3 {
+    width: 31%;
+    height: 160px;
+    margin-top: 25px;
+    margin-right: 10px;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.form4 {
+    width: 31%;
+    height: 160px;
+    margin-top: 25px;
+    margin-left: 230px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.form5 {
+    width: 31%;
+    height: 160px;
+    margin-top: 25px;
+    margin-left: 40px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.form6 {
+    width: 31%;
+    height: 160px;
+    margin-top: 25px;
+    margin-left: 460px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+}
+
+/* professora 
+section por div{
+    width: 31%;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    margin: 10px;
+}
+
+.form1 , form2,form3,form5 {
+    float: left;
+    background-color: rgb(255, 255, 255);
+    }
+
+
+.form4, form6 {
+    float: left;
+    clear:left;
+    background-color: rgb(255, 255, 255);
+}
+
+section{
+    margin-left: 300px
+*/

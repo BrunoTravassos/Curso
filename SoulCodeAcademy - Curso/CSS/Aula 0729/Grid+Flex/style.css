@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper1 {
+    width: 100vw;
+    height: 30vh;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr 5fr);
+    background-color: rgb(146, 238, 161);
+    margin: 1px;
+    border: solid rgb(1, 102, 63);
+}
+
+.wrapper2 {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr 5fr);
+    background-color: rgba(146, 238, 161, 0.6);
+    margin: 2px;
+    border: solid rgb(1, 102, 63);
+}
+
+#w-logo {
+    height: 29vh;
+    margin: 1px;
+    /* border: solid rgb(30, 81, 231); */
+    display: flexbox;
+    background-color: rgb(146, 238, 161);
+}
+
+#logo-lab {
+    width: 15vw;
+    height: 25vh;
+    margin-left: 10px;
+}
+
+#p-header {
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: left;
+    padding: 5%;
+}
+
+#w-nav {
+    width: 20vw;
+    height: 99vh;
+    margin: 1px;
+    border-right: solid rgb(11, 99, 3);
+    display: flex;
+}
+
+#w-main {
+    width: 79.3vw;
+    height: 99vh;
+    margin: 1px;
+    display: flex;
+}
+
+.nav {
+    position: relative;
+    text-align: center;
+    margin-top: 1px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+li {
+    position: relative;
+    margin: 1.2em 0;
+}
+
+a {
+    line-height: 5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+    color: rgb(0, 0, 0);
+    display: block;
+    transition: all ease-out 300ms;
+    border-bottom: 1px rgb(1, 102, 63) solid;
+}
+
+/* formulario */
+
+#form-contato {
+    height: 500px;
+    position: absolute;
+    top: 1vw;
+}
+
+#titulo-descricao {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    display: flex;
+    position: relative;
+    left: 25vw;
+    color: #050505;
+    ;
+}
+
+fieldset {
+    width: 50vw;
+    height: 400px;
+    display: grid;
+    position: relative;
+    border: none;
+    align-items: center;
+}
+
+#nome, #email, #telefone, #info, #endereco, #cpf {
+    width: 40vw;
+    height: 7vh;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 10vw;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px rgb(1, 102, 63) solid;
+}
+
+
+
+select {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.botao-enviar {
+    width: 10vw;
+    height: 7vh;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    background: linear-gradient(to right, rgb(1, 105, 6) 5%, #136d17 40%, #10a040, #0ada2d);
+    color: wheat;
+    font-size: large;
+}

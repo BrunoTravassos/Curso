@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" />
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" />
+        </div>
+        <br>
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg"></textarea>
+        </div>
+        <br>
+        <div class="button">
+            <button type="submit">Enviar sua mensagem</button>
+            <button type="reset"> mensagem</button>
+        </div>
+        <h3>Linguagem de Programação</h3>
+        <br>
+        <div>
+            <input type="radio" id="pyton" name="fav_language"  value="pyton">
+            <label for="pyton">Pyton</label>
+            <br>
+            <input type="radio" id="html" name="fav_language"  value="HTML">
+            <label for="html">HTML</label>
+            <br>
+            <input type="radio" id="css" name="fav_language"  value="CSS">
+            <label for="css">CSS</label>
+        </div>
+        <br>
+        <h3>Games</h3>
+        <div>
+            <input type="radio" id="mario" name="fav_games" value="mario">
+            <label for="mario">Mario World</label>
+            <br>
+            <input type="radio" id="sonic" name="fav_games" value="SONIC">
+            <label for="sonic">SONIC</label>
+            <br>
+            <input type="radio" id="akidd" name="fav_games" value="AKIDD">
+            <label for="akidd">Alex Kidd</label>
+        </div>
+    </form>
+</body>
+</html>

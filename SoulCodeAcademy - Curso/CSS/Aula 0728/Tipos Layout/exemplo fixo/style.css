@@ -1,0 +1,36 @@
+#container {
+    margin: 0 auto;
+    /* centrar o layout horizontalmente */
+    width: 960px;
+}
+
+#header {
+    width: 100%;
+    /* para garantir que ocupa todo o espaço disponível no container */
+    background-color: #A0A0A0;
+}
+
+#sidebar {
+    width: 330px;
+    float: left;
+    display: inline;
+    /* hack para resolver problemas de margin duplicada no IE 5/6 */
+    background-color: #787878;
+}
+
+#content {
+    width: 600px;
+    /* 960px - 330px = 600px os 30px que faltam são para separar as colunas */
+    float: right;
+    /* para alinhar à direita */
+    display: inline;
+    /* hack para resolver problemas de margin duplicada no IE 5/6 */
+    background-color: #787878;
+}
+
+#footer {
+    width: 100%;
+    clear: both;
+    /* para garantir que é mostrado depois das duas colunas anteriores (content e sidebar) */
+    background-color: #A0A0A0;
+}

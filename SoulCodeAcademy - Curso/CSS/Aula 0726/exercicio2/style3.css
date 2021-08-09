@@ -1,0 +1,23 @@
+#pri {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800
+}
+
+#seg {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-style: italic;
+    font-weight: 200
+}
+
+#ter {
+    font-family: monospace;
+    font-style: oblique;
+    font-weight: 500
+}
+
+#qua {
+    font-family: fantasy;
+    font-size: x-small;
+    font-weight: 400
+}

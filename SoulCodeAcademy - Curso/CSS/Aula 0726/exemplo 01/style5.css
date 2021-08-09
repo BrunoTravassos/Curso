@@ -1,0 +1,36 @@
+div {
+    height: 50px;
+}
+
+#pri {
+    background-color: black;
+}
+
+#seg {
+    background-color: rgb(168, 231, 20);
+}
+
+#ter {
+    background-color: rgb(15, 231, 231);
+}
+
+#qua {
+    background-color: rgb(5, 83, 250);
+}
+
+#qui {
+    background-color: rgb(85, 11, 170);
+}
+
+#sex {
+    background-color: rgb(184, 22, 162);
+}
+
+#sete {
+    background-color: rgb(247, 7, 7);
+}
+
+table, tr,th, td{
+    border-style: solid;
+    border-collapse: collapse;
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper1 {
+    width: 50vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(4, 25fr);
+    /* grid-template-rows: 20fr 60fr 20fr; */
+    grid-template-rows: repeat(4 25fr);
+}
+
+.wrapper1 section {
+    margin: 1px;
+    border: solid rgb(30, 81, 231);
+    background-color: rgb(216, 250, 239);
+}

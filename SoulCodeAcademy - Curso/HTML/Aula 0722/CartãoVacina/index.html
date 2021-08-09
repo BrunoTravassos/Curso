@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="enviar dados">
+        <h2>Formulário de vacinação</h2>
+        <fieldset>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+
+            <label for="atendimento">Data Atendimento:</label>
+            <input type="date" id="atendimento">
+        </div>
+        <br>
+        <div>
+            <label for="nascimento">Data Nascimento:</label>
+            <input type="date" id="nascimento">
+
+            <label for="sangue">Tipo San:</label>
+            <input type="text" id="sangue">
+        </div>
+        <br>
+        <div>
+            <label for="tel">Telefone:</label>
+            <input type="tel" id="tel">
+
+            <label for="rh">Fator RH:</label>
+            <input type="text" id="rh">
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email">
+            <label for="vacinas">Vacinas App:</label>
+            <input type="text" id="vacinas">
+        </div>
+        <br>
+        <div>
+            <label for="rua">Rua:</label>
+            <input type="text" id="rua">
+
+            <label for="comorb">Comorbidade:</label>
+            <input type="text" id="comorb">
+        </div>
+        <br>
+        <div>
+            <label for="num">Numero:</label>
+            <input type="text" id="num">
+
+            <label for="cont">Contato Emergencia:</label>
+            <input type="tel" id="cont">
+        </div>
+        <br>
+        <div>
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro">
+
+            <label for="comorb">Prioridade Atendimento:</label>
+            <input type="color" name="cor" id="cor" class="cor">
+        </div>
+        <br>
+        <div>
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep">
+
+            <label for="comorb">Velocidade Atendimento:</label>
+            <input type="range" min="0" max="2" step="1" value="0">
+            <label for="aten">Lenta / Aceitável / Rápida</label>
+        </div>
+        <br>
+        <div>
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado">
+
+
+        </div>
+        <br>
+        <div>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade">
+            <label for="comorb">Observações:</label>
+            <textarea id="msg" cols="40" rows="4"></textarea>
+        </div>
+
+        <h3>Cores de prioridade</h3>
+        <fieldset>
+        <p style="color: red;">Vermelha – Emergência: atendimento imediato;</p>
+        <p style="color:orangered;">Laranja – Muito urgente: espera de até 10 minutos;</p>
+        <p style="color:rgb(160, 161, 48);">Amarelo – Urgente: espera de até 1 hora;</p>
+        <p style="color:green;">Verde – Pouco urgente: espera de até 2 horas;</p>
+        <p style="color:blue">Azul – Não urgente: espera de até 4 horas;</p>
+            </fieldset>
+    </fieldset>
+    </form>
+    
+</body>
+
+</html>

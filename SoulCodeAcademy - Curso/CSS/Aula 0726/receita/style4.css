@@ -1,0 +1,37 @@
+body {
+    margin: 10px;
+    border: 1px;
+    border-style: solid;
+}
+
+#div1 {
+    text-align: center;
+}
+
+#h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+#h3 {
+    text-align: center;
+    background-color: darkgray;
+}
+
+li {
+    list-style: none;
+    color: blue;
+}
+
+#lthr {
+    text-decoration: line-through;
+}
+
+#lver {
+    color: red;
+}
+
+#final {
+    font-style: italic;
+    font-variant: small-caps;
+}
